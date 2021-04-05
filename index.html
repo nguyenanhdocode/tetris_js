@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS HERE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- sound -->
+    <audio id="theme_sound" src="theme_sound.mp3" loop="true"></audio>
+
+    <audio id="hitBottomSound" src="sounds/hitBottom.mp3" loop="false"></audio>
+    <!-- brick image -->
+    <img src="img/brk.png" alt="brick" id="brick">
+
+    <div id="wrapper">
+        <div id="left-bar">
+            <div   id="left-img">
+                <img class="img" src="img/tetris_col.png" alt="">
+            </div>
+            <div  id="main">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="right-img">
+                <img  class="img" src="img/tetris_col.png" alt="">
+            </div>
+        </div>
+        <div id="right-bar">
+            <div id="logo">
+                <img src="img/tetris-mono-logo.png" alt="">
+            </div>
+            <div id="next">
+                <canvas id="nextCanvas"></canvas>
+            </div>
+            <div id="score">
+                <p id="gameScore">Score:</p>
+                <p id="gameStatus">Press Enter to start...</p>
+                <p id="gameStatus">Press Space to pause...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS HERE -->
+    <script src="config.js"></script>
+    <script src="sound.js"></script>
+    <script src="brick.js"></script>
+    <script src="board.js"></script>
+    <script src="shape.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

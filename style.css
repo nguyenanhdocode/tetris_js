@@ -1,0 +1,81 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-color: #ececec;
+}
+
+#brick {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+#wrapper {
+    width: 622px;
+    height: 600px;
+    margin: 60px auto;
+}
+
+#left-bar, #right-bar {
+    float: left;
+}
+
+#left-bar {
+    width: 400px;
+    height: 600px;
+}
+
+#right-bar {
+    width: 220px;
+    height: 600px;
+    margin: 0 0 0 2px;
+}
+
+#left-img {
+    float: left;
+    width: 50px;
+    height: 600px;
+}
+
+#main {
+    float: left;
+    width: 300px;
+    height: 600px;
+}
+
+#right-img {
+    float: left;
+    width: 50px;
+    height: 600px;
+}
+
+.img {
+    width: 50px;
+    height: 600px;
+}
+
+#canvas {
+    background-color: #ddd;
+}
+
+#right-bar {
+    background-color: #222;
+}
+
+#logo img {
+    margin: 3px;
+    width: 210px;
+    height: auto;
+}
+
+#next {
+    width: 220px;
+    height: 250px;
+}
+
+#gameScore, #gameStatus {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 10px 0 0 8px;
+}
